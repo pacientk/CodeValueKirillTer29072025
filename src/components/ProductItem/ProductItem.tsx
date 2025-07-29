@@ -48,12 +48,12 @@ const ProductItem = ({ product, getProd, onDelete }: ProdItemProps) => {
                </p>
                <button
                   onClick={navToProdDetails}
-                  className="relative me-25 mt-2 block cursor-pointer self-start text-sm text-gray-500 underline">
+                  className="me-25 mt-2 block cursor-pointer self-start text-sm text-gray-500 underline">
                   Product details
                </button>
-               <div className="relative flex justify-end text-sm">
+               <div className="flex justify-end text-sm">
                   <button
-                     className={'relative block cursor-pointer rounded hover:bg-red-100'}
+                     className={'block cursor-pointer rounded hover:bg-red-100'}
                      onClick={handleDelete}>
                      <TrashIcon className="m-2 h-5 w-5 text-red-400" />
                   </button>
